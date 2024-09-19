@@ -13,8 +13,8 @@ export const Home = () => {
       </div>
       <div className="welcome-para-container">
         <div className="welcome-img-container">
-          <img src="./src/assets/kitchen.jpg" alt="kitchen" />
-          <img src="./src/assets/kitchen2.jpg" alt="kitchen" />
+          <img src="./public/kitchen.jpg" alt="kitchen" />
+          <img src="./public/kitchen2.jpg" alt="kitchen" />
         </div>
         <div className="para-container">
           <p>
