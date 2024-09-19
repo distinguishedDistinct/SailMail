@@ -34,9 +34,8 @@ export const Count = () => {
         >
           Reset
         </button>
+        <h1>Highest Number of Clicks: {max}</h1>
       </div>
-
-      <h1>Highest Number of Clicks: {max}</h1>
     </>
   );
 };
