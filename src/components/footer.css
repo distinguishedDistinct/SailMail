@@ -1,0 +1,61 @@
+footer{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer-container{
+    background-color: rgb(0, 51, 153);
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;    
+    width: 100%;
+    padding: 10px;
+}
+
+
+.footer-container{
+    color: white; font-weight: bold
+}
+
+.info-container
+{
+    color: white;
+}
+
+.image-item img{
+    margin-left: 2px
+}
+.image-item a
+{
+    color: rgb(152, 169, 220);
+}
+
+.email-container p{
+    color: white; font-size: 23px;
+}
+.admin-container{
+    text-align: center;
+    background-color: black;
+    position: relative;
+    width: 100%;
+}
+
+.admin-btn{
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: rgb(0, 51, 153);
+}

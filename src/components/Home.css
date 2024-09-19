@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Rellington;
+    src: url(/src/assets/fonts/Relington.ttf);
+}
+
+.image{
+    background-image: url('/src/assets/homeimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+
+.Text-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.Text-container h1 
+{
+        margin-top: 200px; /* Move the h1 down without moving the whole container */
+        font-family: Rellington;
+        font-size: 80px;
+}
+
+.welcome-para-container{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.welcome-para-container p{
+    
+    color: white; 
+    letter-spacing:0.05em
+
+}    
+
+.para-container{
+    width: 500px;
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.welcome-para-container hr{
+width: 70px; margin-right: 1000px
+}
+
+.welcome-para-container span
+{color: #4B84B5; 
+font-weight: bold}
+
+.welcome-img-container img {
+    width: 250px;  /* Set the desired width */
+    height: 380px; /* Set the desired height */
+    object-fit: cover; /* This ensures the aspect ratio is maintained */
+    margin: 10px; /* Optional: add space between the images */
+  }
+  
