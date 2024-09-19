@@ -29,12 +29,12 @@ export const Count = () => {
         </button>
         <button
           type="button"
-          className="btn btn-primary px-4 mx-5 "
+          className="btn btn-primary px-4 mx-5  "
           onClick={handleReset}
         >
           Reset
         </button>
-        <h1>Highest Number of Clicks: {max}</h1>
+        <h1 className="mt-5">Highest Number of Clicks: {max}</h1>
       </div>
     </>
   );
