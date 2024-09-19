@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, CSSProperties } from "react";
 
 export const Calculator = () => {
-  const calculatorStyle = {
+  // Define calculator style with correct typing
+  const calculatorStyle: CSSProperties = {
     display: "grid",
     gridTemplateColumns: "repeat(3, 80px)",
     gap: "10px",
@@ -11,18 +12,19 @@ export const Calculator = () => {
     margin: "auto",
   };
 
-  const gridItemStyle = {
+  // Define grid item style with correct typing
+  const gridItemStyle: CSSProperties = {
     backgroundColor: "rgba(255, 255, 255, 0.8)",
     border: "1px solid rgba(0, 0, 0, 0.8)",
     padding: "20px",
     fontSize: "30px",
-    textAlign: "center",
+    textAlign: "center", // This will now be correctly typed
   };
 
-  const [display, setDisplay] = useState(""); // Holds the input and result
+  const [display, setDisplay] = useState<string>(""); // Holds the input and result
 
   // Function to handle value clicks
-  const handleValue = (value) => {
+  const handleValue = (value: string) => {
     setDisplay((prev) => prev + value); // Append clicked value to the display
   };
 

@@ -53,7 +53,7 @@ export const Tasks = (props: { title: string }) => {
           className="form-control my-3"
           id="exampleFormControlTextarea1"
           placeholder="Enter your task"
-          rows={"5"}
+          rows={5}
           value={taskDesc}
           onChange={(e) => setTaskDesc(e.target.value)}
         ></textarea>

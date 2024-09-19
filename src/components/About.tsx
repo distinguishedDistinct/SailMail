@@ -29,10 +29,11 @@ const About = () => {
     }
   };
 
-  const toggleAccordion = (item) => {
+  // Define the type of item as a union of possible keys
+  const toggleAccordion = (item: "item1" | "item2" | "item3") => {
     setIsOpen((prevState) => ({
       ...prevState,
-      [item]: !prevState[item],
+      [item]: !prevState[item], // Toggle the value of the clicked item
     }));
   };
 
