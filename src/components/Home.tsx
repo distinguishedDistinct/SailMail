@@ -13,14 +13,18 @@ export const Home = () => {
       </div>
       <div className="welcome-para-container">
         <div className="welcome-img-container">
-          <img src="./public/kitchen.jpg" alt="kitchen" />
-          <img src="./public/kitchen2.jpg" alt="kitchen" />
+          <img src="./src/assets/kitchen.jpg" alt="kitchen" />
+          <img src="./src/assets/kitchen2.jpg" alt="kitchen" />
         </div>
         <div className="para-container">
           <p>
-            Top-tier kitchen, wardrobe, and door premiere manufacturer in
-            Pakistan, rising for two decades in the Middle East. Committed to
-            uncompromising quality and bespoke craftsmanship.
+            Welcome to SailMail, your ultimate destination for all things
+            nautical! Whether you're a seasoned sailor or just starting your
+            journey on the water, SailMail is here to provide you with
+            everything you need to navigate with confidence and style. We offer
+            a wide range of top-quality products, from sailing gear to essential
+            accessories, ensuring that you have the best equipment at your
+            fingertips.
             <br />
           </p>
           <hr className="solid" />

@@ -84,6 +84,12 @@ export const Calculator = () => {
         <button style={gridItemStyle} onClick={() => handleValue("-")}>
           -
         </button>
+        <button style={gridItemStyle} onClick={() => handleValue("*")}>
+          X
+        </button>
+        <button style={gridItemStyle} onClick={() => handleValue("/")}>
+          /
+        </button>
         <button style={gridItemStyle} onClick={handleCalculate}>
           =
         </button>

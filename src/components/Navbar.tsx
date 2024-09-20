@@ -1,9 +1,13 @@
 import React from "react";
+// index.tsx or index.js
+
+import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Import Bootstrap JS
 
 export default function (props: { title: string }) {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark navbar-dark ">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div className="container-fluid">
           <a className="navbar-brand" href="/home">
             {props.title}

@@ -3,6 +3,7 @@
     src: url(/src/assets/fonts/Relington.ttf);
 }
 
+
 .image{
     background-image: url('/src/assets/homeimg.jpg');
     background-size: cover;
@@ -39,7 +40,7 @@
 
 .para-container{
     width: 500px;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
 
